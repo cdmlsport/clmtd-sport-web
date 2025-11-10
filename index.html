@@ -267,6 +267,50 @@
   .video-wrapper { width: 90vw; padding-bottom: 177.78%; }
   .video-frame { padding: 3px; }
 }
+/* --- ESTILOS PARA LA SECCIÓN DE INFORMACIÓN DE COMPRA --- */
+
+#info-compra {
+    /* Define el ancho máximo y centrado */
+    max-width: 800px; 
+    margin: 40px auto; 
+    padding: 30px;
+    
+    /* Colores y bordes para destacar la sección */
+    background-color: #f8f8f8; /* Un fondo gris claro */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#info-compra h2 {
+    text-align: center;
+    color: #007bff; /* Color azul, puedes usar el color principal de tu marca */
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#info-compra p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 3px solid #007bff; /* Barra de color al lado del texto */
+}
+
+#info-compra strong {
+    color: #333; /* Color oscuro para resaltar títulos */
+    font-weight: 700;
+}
+
+#info-compra .contacto-link {
+    color: #25d366; /* Color de WhatsApp */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#info-compra .contacto-link:hover {
+    text-decoration: underline;
+}
 </style>
 </head>
 <script>
@@ -357,7 +401,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <section id="inicio">
     <h2>Bienvenido a CLMTD SPORT</h2>
-    <p>Ropa y accesorios deportivos con estilo propio. Descubrí nuestra colección y consultá por <a href="https://wa.me/5491127029237?text=Hola%20CLMTD%20SPORT%2C%20estoy%20interesado%20en%20sus%20productos%20y%20quisiera%20hacer%20una%20consulta." class="contacto-link" target="_blank">WhatsApp</a> para realizar tu pedido.</p>
+    <p>Ropa y accesorios deportivos con estilo propio. Descubrí nuestra colección y consultá por <a href="https://wa.me/5491132817899" class="contacto-link" target="_blank">WhatsApp</a> para realizar tu pedido.</p>
+</section>
+<section id="info-compra">
+    <h2>🛒 Información de compra</h2>
+
+    <p><strong>🚚 Envíos a todo el país</strong><br>
+    Realizamos envíos por <strong>Correo Argentino</strong> y <strong>Andreani</strong>.
+    El costo del envío <strong>queda a cargo del cliente</strong>.</p>
+
+    <p><strong>🔁 Cambios</strong><br>
+    Podés realizar <strong>cambios únicamente por talle</strong>.
+    Si no hay stock disponible, podés elegir otro producto del mismo valor o uno de mayor precio abonando la diferencia.
+    Los gastos de envío por cambio siempre corren por cuenta del comprador.</p>
+
+    <p><strong>💳 Medios de pago</strong><br>
+    Aceptamos: <strong>transferencia bancaria</strong>, <strong>efectivo</strong> y <strong>QR de Mercado Pago</strong>
+    (permite pagar con tarjeta de crédito o débito).</p>
+
+    <p>¿Tenés dudas? Consultá por
+        <a class="contacto-link" href="https://wa.me/5491132817899" target="_blank">
+            WhatsApp
+        </a>.
+    </p>
 </section>
 <div class="video-grid" aria-label="Videos de presentación">
   <div class="video-card">
